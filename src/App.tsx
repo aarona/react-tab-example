@@ -6,12 +6,12 @@ function App() {
     <div className="App">
       <Tabs activeTab="Tab 2">
         <Tab label="Tab 1">
-          Tab 1 Content:
+          <h1>Tab 1 Content</h1>
           <div><input value="Some text" /></div>
         </Tab>
         <Tab label="Tab 2">
-          Tab 2 Content:
-          <h1>Big Header!</h1>
+          <h1>Tab 2 Content</h1>
+          <h2>Sub Header</h2>
           <ul>
             <li>Item 1</li>
             <li>Item 2</li>
@@ -19,8 +19,8 @@ function App() {
           </ul>
         </Tab>
         <Tab label="Tab 3">
-          Tab 3 Content:
-          <p><em>Nothing important here</em></p>
+          <h1>Tab 3 Content</h1>
+          <p><em>Nothing important here on this tab!</em></p>
         </Tab>
       </Tabs>
     </div>
